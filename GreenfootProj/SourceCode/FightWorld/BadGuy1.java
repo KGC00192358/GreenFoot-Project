@@ -1,21 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Sword here.
+ * Write a description of class BadGuy1 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-
-public class Sword extends Actor
+public class BadGuy1 extends Actor
 {
-    public Sword() {
-        GreenfootImage image = getImage();
-        image.scale(image.getWidth() + 63, image.getHeight() + 63);
-        setImage(image);
-    }
     /**
-     * Act - do whatever the Sword wants to do. This method is called whenever
+     * Act - do whatever the BadGuy1 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
